@@ -3,180 +3,207 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 2</title>
+    <title>Personal CV</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
 
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#certifications">Certifications</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#interests">Interests</a></li>
-          <li><a href="./pages/form.html">Form page here</a></li>
-          <li><a href="./pages/tables.html">Tables</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="./pages/form.html">Form page here</a></li>
+            <li><a href="./pages/tables.html">Tables</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
       <section class="hero">
-        <img
-          src="images/IMG_2600.jpeg"
-          alt="Photo of Viktoriia Vozna"
-          height="400"
-          width="280"
-        />
+        <div class="container">
+          <img
+            src="./images/IMG_2600.jpeg"
+            alt="Photo of Viktoriia Vozna"
+            height="400"
+            width="280"
+          />
 
-        <h1>Viktoriia Vozna's Personal CV</h1>
+          <h1>Viktoriia Vozna's Personal CV</h1>
 
-        <p class="first-text">
-          Student | Lviv Polytechnic National University | Hillel IT School |
-          Focused on Full-Stack Development
-        </p>
+          <p class="first-text">
+            Student | Lviv Polytechnic National University | Hillel IT School |
+            Focused on Full-Stack Development
+          </p>
+        </div>
       </section>
 
       <section id="contact" class="content-section">
-        <h2>Contact Information</h2>
+        <div class="container">
+          <h2>Contact Information</h2>
 
-        <address>
-          <ul>
-            <li>Location: Lviv, Ukraine</li>
+          <address>
+            <ul>
+              <li>Location: Lviv, Ukraine</li>
 
-            <li>
-              Email:
-              <a href="mailto:vii.vozna@icloud.com">vii.vozna@icloud.com</a>
-            </li>
+              <li>
+                Email:
+                <a href="mailto:vii.vozna@icloud.com">vii.vozna@icloud.com</a>
+              </li>
 
-            <li>
-              Phone:
-              <a href="tel:+380986038677">+380 98 603 86 77</a>
-            </li>
+              <li>
+                Phone:
+                <a href="tel:+380986038677">+380 98 603 86 77</a>
+              </li>
 
-            <li>
-              LinkedIn:
-              <a
-                href="https://www.linkedin.com/in/viktoriia-vozna-914662374"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                My profile
-              </a>
-            </li>
-          </ul>
-        </address>
+              <li>
+                LinkedIn:
+                <a
+                  href="https://www.linkedin.com/in/viktoriia-vozna-914662374"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  My profile
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </section>
 
       <section id="about" class="content-section">
-        <h2>About Me</h2>
+        <div class="container">
+          <h2>About Me</h2>
 
-        <p class="second-text">
-          I’m Viktoriia Vozna, a fourth-year Cybersecurity student at Lviv
-          Polytechnic National University. I’m interested in web development and
-          currently expanding my skills in frontend and full-stack technologies,
-          particularly React and Node.js. I enjoy solving problems, learning new
-          technologies, and building practical web applications. My
-          cybersecurity background also gives me an interest in developing
-          secure and reliable web solutions. I’m currently looking for an
-          internship or junior opportunity where I can gain real-world
-          experience, contribute to a development team, and continue growing as
-          a full-stack developer.
-        </p>
+          <p class="second-text">
+            I’m Viktoriia Vozna, a fourth-year Cybersecurity student at Lviv
+            Polytechnic National University. I’m interested in web development
+            and currently expanding my skills in frontend and full-stack
+            technologies, particularly React and Node.js. I enjoy solving
+            problems, learning new technologies, and building practical web
+            applications. My cybersecurity background also gives me an interest
+            in developing secure and reliable web solutions. I’m currently
+            looking for an internship or junior opportunity where I can gain
+            real-world experience, contribute to a development team, and
+            continue growing as a full-stack developer.
+          </p>
+        </div>
       </section>
 
       <section id="education" class="content-section">
-        <h2>Education</h2>
+        <div class="container">
+          <h2>Education</h2>
 
-        <ul>
-          <li>
-            <h3>Lviv Polytechnic National University</h3>
+          <ul>
+            <li>
+              <h3>Lviv Polytechnic National University</h3>
+              <p>
+                Bachelor's Degree Program in Cybersecurity. Fourth-year student.
+                Strong academic performance.
+              </p>
+            </li>
 
-            <p>
-              Bachelor's Degree Program in Cybersecurity. Fourth-year student.
-              Strong academic performance.
-            </p>
-          </li>
-
-          <li>
-            <h3>Hillel IT School</h3>
-
-            <p>Frontend Basic Course. Full-Stack Development Course.</p>
-          </li>
-        </ul>
+            <li>
+              <h3>Hillel IT School</h3>
+              <p>Frontend Basic Course. Full-Stack Development Course.</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section id="certifications" class="content-section">
-        <h2>Certifications</h2>
+        <div class="container">
+          <h2>Certifications</h2>
 
-        <ul>
-          <li>
-            <h3>CCNA: Introduction to Networks</h3>
-            <p>Cisco Academy</p>
-          </li>
+          <ul>
+            <li>
+              <h3>CCNA: Introduction to Networks</h3>
+              <p>Cisco Academy</p>
+            </li>
 
-          <li>
-            <h3>EF SET English Certificate 52/100 (B2 Upper Intermediate)</h3>
-            <p>EF SET</p>
-          </li>
+            <li>
+              <h3>EF SET English Certificate 52/100 (B2 Upper Intermediate)</h3>
+              <p>EF SET</p>
+            </li>
 
-          <li>
-            <h3>Agile Approaches to Project Management</h3>
-            <p>Course</p>
-          </li>
-        </ul>
+            <li>
+              <h3>Agile Approaches to Project Management</h3>
+              <p>Course</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section id="skills" class="content-section">
-        <h2>My Skills</h2>
+        <div class="container">
+          <h2>My Skills</h2>
 
-        <h3>Technical Skills</h3>
-        <ul class="list">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Git / GitHub</li>
-          <li>Docker (basic)</li>
-          <li>Linux / Ubuntu (basic)</li>
-          <li>Computer Networks (basic)</li>
-        </ul>
+          <h3>Technical Skills</h3>
+          <ul class="list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Git / GitHub</li>
+            <li>Docker (basic)</li>
+            <li>Linux / Ubuntu (basic)</li>
+            <li>Computer Networks (basic)</li>
+          </ul>
 
-        <h3>Soft Skills</h3>
-        <ul class="list">
-          <li>Teamwork</li>
-          <li>Communication</li>
-          <li>Fast learning ability</li>
-          <li>Adaptability</li>
-          <li>Problem solving</li>
-          <li>Attention to detail</li>
-        </ul>
+          <h3>Soft Skills</h3>
+          <ul class="list">
+            <li>Teamwork</li>
+            <li>Communication</li>
+            <li>Fast learning ability</li>
+            <li>Adaptability</li>
+            <li>Problem solving</li>
+            <li>Attention to detail</li>
+          </ul>
 
-        <h3>Experience</h3>
-        <ul class="list">
-          <li>Worked as a Sales Manager</li>
-          <li>Communication with clients</li>
-          <li>Problem solving and customer support</li>
-          <li>Working in a team environment</li>
-        </ul>
+          <h3>Experience</h3>
+          <ul class="list">
+            <li>Worked as a Sales Manager</li>
+            <li>Communication with clients</li>
+            <li>Problem solving and customer support</li>
+            <li>Working in a team environment</li>
+          </ul>
+        </div>
       </section>
 
       <section id="interests" class="content-section">
-        <h2>Career Interests</h2>
+        <div class="container">
+          <h2>Career Interests</h2>
 
-        <ul class="list">
-          <li>Frontend and Full-Stack Development</li>
-          <li>Web technologies</li>
-          <li>Cybersecurity</li>
-        </ul>
+          <ul class="list">
+            <li>Frontend and Full-Stack Development</li>
+            <li>Web technologies</li>
+            <li>Cybersecurity</li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer>
-      <p>© 2026 Viktoriia Vozna</p>
+      <div class="container">
+        <p>© 2026 Viktoriia Vozna</p>
+      </div>
     </footer>
   </body>
 </html>
