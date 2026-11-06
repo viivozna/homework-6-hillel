@@ -7,6 +7,19 @@
   --white-color: #ffffff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: var(--light-color);
   color: var(--text-color);
@@ -248,44 +261,26 @@ th {
   border-top: none;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-header > .container,
-footer > .container {
+header,
+footer {
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.hero > .container {
+.hero {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.content-section > .container {
+.content-section {
   padding-top: 32px;
   padding-bottom: 32px;
-}
-
-main > .hero,
-main > .content-section {
-  margin-bottom: 24px;
 }
 
 .container h1,
@@ -297,8 +292,12 @@ main > .content-section {
   margin-bottom: 12px;
 }
 
-.container li + li {
-  margin-top: 10px;
+.container li {
+  margin-bottom: 10px;
+}
+
+.container li:last-child {
+  margin-bottom: 0;
 }
 
 .container .list {
