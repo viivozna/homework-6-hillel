@@ -29,6 +29,9 @@ body {
 a {
   color: var(--main-color);
   text-decoration: none;
+  transition:
+    color 250ms ease,
+    background-color 250ms ease;
 }
 
 header a,
@@ -38,6 +41,8 @@ footer a {
 
 a:hover,
 a:focus {
+  color: var(--main-color);
+  background-color: var(--accent-color);
   text-decoration: underline;
 }
 
@@ -341,6 +346,7 @@ footer {
   position: relative;
   width: 280px;
   margin: 0 auto 24px;
+  animation: photo-appear 800ms ease;
 }
 
 .cv-photo > img {
@@ -379,4 +385,16 @@ footer {
 
 .skills-group h3 {
   margin-bottom: 0;
+}
+
+@keyframes photo-appear {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
