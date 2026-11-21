@@ -28,10 +28,12 @@ body {
 
 a {
   color: var(--main-color);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: transparent;
   transition:
     color 250ms ease,
-    background-color 250ms ease;
+    background-color 250ms ease,
+    text-decoration-color 250ms ease;
 }
 
 header a,
@@ -43,7 +45,7 @@ a:hover,
 a:focus {
   color: var(--main-color);
   background-color: var(--accent-color);
-  text-decoration: underline;
+  text-decoration-color: currentColor;
 }
 
 a:active {
@@ -171,6 +173,7 @@ address {
 
 address a {
   text-decoration: underline;
+  text-decoration-color: transparent;
 }
 
 .form-text {
